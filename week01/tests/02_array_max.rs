@@ -8,9 +8,9 @@
 
 fn find_largest(numbers: [i32; 10]) -> i32 {
     let mut largest = numbers[0];
-    for number in numbers {
-        if largest < number {
-            largest = number;
+    for number in &numbers[1..] {
+        if largest < *number {
+            largest = *number;
         }
     }
 
