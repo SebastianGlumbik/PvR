@@ -42,7 +42,7 @@ impl Program {
             if instruction_counter > 10000 {
                 return Err(ExecuteError::InfiniteLoop);
             }
-            let instruction = self.code.chars().nth(index).unwrap_or_default();
+            let instruction = *self.code.as_bytes().get(index).unwrap() as char;
             instruction_counter += 1;
             match instruction {
                 '>' if data_ptr + 1 < data.len() => {
