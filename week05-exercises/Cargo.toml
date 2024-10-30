@@ -1,0 +1,11 @@
+[package]
+name = "week05-exercises"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+psutil = "3.3.0"
+ratatui = "0.29.0"
+anyhow = "1.0.91"
+color-eyre = "0.6.3"
+chrono = "0.4.38"
