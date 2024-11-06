@@ -100,7 +100,7 @@ impl<T> BinaryTree<T> {
         }
     }
 
-    fn iter(&self) -> impl Iterator<Item=&T> + '_ {
+    fn iter(&self) -> impl Iterator<Item = &T> + '_ {
         struct BinaryTreeIterator<'a, T> {
             stack: Vec<&'a BinaryTree<T>>,
         }
@@ -160,7 +160,7 @@ mod tests {
                 node(2, node_leaf(1), node_leaf(3)),
                 node(6, node_leaf(5), node_leaf(7))
             )
-                .size(),
+            .size(),
             7
         );
     }
@@ -222,7 +222,7 @@ mod tests {
                 node(4, node(3, node_leaf(5), leaf()), node_leaf(5)),
                 node(12, node_leaf(11), leaf())
             )
-                .height(),
+            .height(),
             4
         )
     }
