@@ -1,7 +1,10 @@
 # Programming in Rust
 
-This repository contains my implementation of the assignments for the Czech course "Programování v Rustu" (PvR) at
-VŠB-TUO. The goal of the course was to learn the Rust programming language.
+This repository contains my implementation of the assignments for the Czech
+course ["Programování v Rustu" (PvR)](https://edison.sso.vsb.cz/cz.vsb.edison.edu.study.prepare.web/SubjectVersion.faces?version=460-4157/02&subjectBlockAssignmentId=545221&studyFormId=1&studyPlanId=26573&locale=en)
+at VŠB-TUO. The goal of the course was to learn the Rust programming language.
+
+Course repository: [rust-course-fei](https://github.com/Kobzol/rust-course-fei/)
 
 ## Assignments
 
